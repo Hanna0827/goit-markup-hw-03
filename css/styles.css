@@ -60,6 +60,7 @@ ul, ol {
 .header {
     padding-top: 25.5px;
     padding-bottom: 25.5px;
+    border-bottom: 1px solid #e7e9fc;
 }
 .header-logo {
         color: var(--color-iris, #4d5ae5);
@@ -70,6 +71,7 @@ ul, ol {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none;
+        margin-right: 76px;
 }
 
 .header-logo-color {
@@ -85,6 +87,8 @@ color: var(--color-navy-blue, #2e2f42);
     display: flex;
     align-items: center;
     gap: 76px;
+    padding-bottom: 24px;
+    padding-top: 24px;
 }
 
 
