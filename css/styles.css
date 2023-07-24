@@ -275,6 +275,7 @@ margin: auto;
 
 .team-pic {
     margin-bottom: 32px;
+    display: block;
 }
 
 .team-list {
@@ -308,6 +309,7 @@ margin: auto;
 
 .team-img {
     background-color: #FFFFFF;
+    display: block;
 }
 
 .footer-text {
@@ -396,5 +398,6 @@ margin: auto;
 }
 
 .info-pic-portfolio {
+    display: block;
     margin-bottom: 32px;
 }
