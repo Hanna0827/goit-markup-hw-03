@@ -183,14 +183,16 @@ padding: 188px 0;
 }
 
 .visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        padding: 0;
-        margin: -1px;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        border: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    margin: -1px; 
 }
 
 .advantages-list {
@@ -209,7 +211,6 @@ padding: 188px 0;
 
 .advantages-item {
     width: 264px;
-    
 }
 
 .advantages-item-text {
@@ -251,6 +252,7 @@ padding: 188px 0;
 .team {
     background-color:#F4F4FD;
     height: 732px;
+    padding: 120px 0;
 }
 
 .team-heading {
@@ -264,6 +266,7 @@ padding: 188px 0;
     text-transform: capitalize;
     padding-top: 120px;
     padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .team-name {
@@ -296,14 +299,19 @@ padding: 188px 0;
 .team-list {
     display: flex;
     gap: 24px;
+    padding: 32px 0
+}
+
+.team-list li:first-child {
+    border-radius: 0px 0px 4px 4px;
 }
 
 /*----------------------------FOOTER-------------------*/
 
 .footer {
     background-color: #2E2F42;
-    padding-top: 101.5px;
-    padding-bottom: 189.5px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -317,6 +325,7 @@ padding: 188px 0;
     text-transform: uppercase;
     text-decoration: none;
     padding-bottom: 17.5px;
+    display: inline-block;
 }
 .footer-logo-color{
    color:#f4f4fd;
@@ -336,7 +345,8 @@ padding: 188px 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-top: 16px;
+    margin-top: 0;
+    margin-bottom: 16px;
 }
 
 /*----------------------------PORTFOLIO-------------------*/
